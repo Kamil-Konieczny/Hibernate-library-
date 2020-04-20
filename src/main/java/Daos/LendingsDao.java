@@ -1,49 +1,58 @@
+package Daos;
 
-import Entity.Books;
+import Entity.Lending;
+import HibernateConn.HibernateFactory;
 import org.hibernate.Session;
 
 
-public class Dao<T> {
+
+public class LendingsDao<T> {
 
     private HibernateFactory hibernateFactory;
 
-    public Dao() {
+    public LendingsDao() {
         this.hibernateFactory = new HibernateFactory();
     }
 
-    public void saveBook(T element) {
+    public void save(T element) {
         Session session = hibernateFactory.getSessionFactory().openSession();
         session.beginTransaction();
         try {
             session.save(element);
             session.getTransaction().commit();
         } catch (Exception e) {
-            System.out.println("saveBook Error!");
+            System.out.println("saveUser Error!");
             session.getTransaction().rollback();
         } finally {
             session.close();
         }
     }
-    public Books readBook(Long id) {
+    public Lending readLending(Long id) {
         Session session = hibernateFactory.getSessionFactory().openSession();
-        Books book = null;
+        Lending lending = null;
         try {
-            book = session.get(Books.class, id);
+            lending = session.get(Lending.class, id);
         } catch (Exception e) {
-            System.out.println("readBook Error!");
+            System.out.println("readLending Error!");
         } finally {
             session.close();
         }
-        return book;
+        return lending;
     }
-    public Books deleteBook(Long id)
+    public void deleteLending(Long id)
     {
         Session session = hibernateFactory.getSessionFactory().openSession();
+        session.beginTransaction();
         try
         {
-
+            Lending lending = session.find(Lending.class, id);
+            session.delete(lending);
+            session.getTransaction().commit();
         } catch (Exception e) {
-            System.out.println("deletebook Error!");
+            System.out.println("deleteLending Error");
+            session.getTransaction().rollback();
+        } finally {
+            session.close();
         }
     }
 }

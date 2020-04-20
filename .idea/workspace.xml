@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e6dffe7-501b-433b-866d-bc11dd0a8c51" name="Default Changelist" comment="" />
+    <list default="true" id="1e6dffe7-501b-433b-866d-bc11dd0a8c51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Daos/LendingsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Daos/UsersDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HibernateConn/Library_DB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Swing/MainFrame.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Swing/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Daos/BooksDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HibernateFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HibernateConn/HibernateFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library_DB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HibernateFactory.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +27,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ai6R1YJZAIdxVjHE0tc0MfDgqa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,12 +38,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/hibernate-without-xml-master" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Daos" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Library_DB\src\main\resources" />
       <recent name="D:\Library_DB\src\main" />
@@ -36,7 +59,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Library_DB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Library_DB" />
+      <option name="MAIN_CLASS_NAME" value="HibernateConn.Library_DB" />
       <module name="Library_DB" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,10 +92,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="713" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587322978290" />
-    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1587386385250">
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1587403565427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587386385250" />
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587403565427" />
+    <state x="689" y="305" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587407173431">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="305" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587407173431" />
+    <state x="756" y="380" width="407" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587399651999">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="380" width="407" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1587399651999" />
+    <state x="714" y="52" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587399167410">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="714" y="52" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587399167410" />
     <state x="490" y="176" key="DBNavigator.ProjectSettingsDialog" timestamp="1587323085735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -81,22 +116,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587385570304" />
-    <state width="1479" height="217" key="GridCell.Tab.0.bottom" timestamp="1587386869423">
+    <state width="1475" height="217" key="GridCell.Tab.0.bottom" timestamp="1587408227008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="217" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587386869423" />
-    <state width="1479" height="217" key="GridCell.Tab.0.center" timestamp="1587386869422">
+    <state width="1475" height="217" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587408227008" />
+    <state width="1475" height="217" key="GridCell.Tab.0.center" timestamp="1587408227008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="217" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587386869422" />
-    <state width="1479" height="217" key="GridCell.Tab.0.left" timestamp="1587386869422">
+    <state width="1475" height="217" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587408227008" />
+    <state width="1475" height="217" key="GridCell.Tab.0.left" timestamp="1587408227007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="217" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587386869422" />
-    <state width="1479" height="217" key="GridCell.Tab.0.right" timestamp="1587386869422">
+    <state width="1475" height="217" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587408227007" />
+    <state width="1475" height="217" key="GridCell.Tab.0.right" timestamp="1587408227008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="217" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587386869422" />
+    <state width="1475" height="217" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587408227008" />
     <state width="1876" height="348" key="GridCell.Tab.1.bottom" timestamp="1587343047451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -117,17 +152,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="102" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587320897641" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1587383872422">
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1587393927493">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587383872422" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587393927493" />
+    <state x="730" y="402" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1587400947347">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="730" y="402" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587400947347" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1587386779714">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587386779714" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587259302756">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587406099645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587259302756" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587406099645" />
   </component>
 </project>
