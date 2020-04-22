@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e6dffe7-501b-433b-866d-bc11dd0a8c51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Daos/LendingsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Daos/UsersDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HibernateConn/Library_DB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Swing/MainFrame.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Swing/MainFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Daos/BooksDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HibernateFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HibernateConn/HibernateFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library_DB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HibernateFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Daos/BooksDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Daos/BooksDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Daos/LendingsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Daos/LendingsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Daos/UsersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Daos/UsersDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entity/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entity/Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entity/Lending.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entity/Lending.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HibernateConn/Library_DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HibernateConn/Library_DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Swing/MainFrame.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Swing/MainFrame.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Swing/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Swing/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Daos/BooksDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Daos/BooksDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Daos/LendingsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Daos/LendingsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Daos/UsersDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Daos/UsersDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entity/Books.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entity/Books.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entity/Lending.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entity/Lending.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HibernateConn/Library_DB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HibernateConn/Library_DB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Swing/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Swing/MainFrame.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,10 +96,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="713" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587322978290" />
-    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1587403565427">
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1587514290848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587403565427" />
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587514290848" />
     <state x="689" y="305" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587407173431">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -116,22 +120,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587385570304" />
-    <state width="1475" height="217" key="GridCell.Tab.0.bottom" timestamp="1587408227008">
+    <state width="1876" height="111" key="GridCell.Tab.0.bottom" timestamp="1587517165039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1475" height="217" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587408227008" />
-    <state width="1475" height="217" key="GridCell.Tab.0.center" timestamp="1587408227008">
+    <state width="1876" height="111" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587517165039" />
+    <state width="1876" height="111" key="GridCell.Tab.0.center" timestamp="1587517165039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1475" height="217" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587408227008" />
-    <state width="1475" height="217" key="GridCell.Tab.0.left" timestamp="1587408227007">
+    <state width="1876" height="111" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587517165039" />
+    <state width="1876" height="111" key="GridCell.Tab.0.left" timestamp="1587517165039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1475" height="217" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587408227007" />
-    <state width="1475" height="217" key="GridCell.Tab.0.right" timestamp="1587408227008">
+    <state width="1876" height="111" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587517165039" />
+    <state width="1876" height="111" key="GridCell.Tab.0.right" timestamp="1587517165039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1475" height="217" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587408227008" />
+    <state width="1876" height="111" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587517165039" />
     <state width="1876" height="348" key="GridCell.Tab.1.bottom" timestamp="1587343047451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -152,10 +156,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="102" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587320897641" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1587393927493">
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1587551470126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587393927493" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587551470126" />
+    <state x="607" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587499345768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="607" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587499345768" />
     <state x="730" y="402" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1587400947347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -164,9 +172,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587386779714" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587406099645">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587516352363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587406099645" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587516352363" />
   </component>
 </project>

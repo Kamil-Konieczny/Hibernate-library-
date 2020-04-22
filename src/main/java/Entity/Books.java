@@ -9,7 +9,7 @@ public class Books {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
@@ -45,6 +45,16 @@ public class Books {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    private boolean status = false;
+
+    public boolean isStatus() {
+        return status;
+    }
+
+    public void setStatus(boolean status) {
+        this.status = status;
     }
 
     @Override

@@ -1,9 +1,14 @@
 package Daos;
 
+import Entity.Lending;
 import Entity.Users;
 import HibernateConn.HibernateFactory;
 import org.hibernate.Session;
+import org.hibernate.query.NativeQuery;
+import org.hibernate.query.Query;
 
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class UsersDao<T> {
@@ -26,6 +31,23 @@ public class UsersDao<T> {
         } finally {
             session.close();
         }
+    }
+    public List<Users> readAllUsers()
+    {
+        List<Users> usersList = new ArrayList<>();
+        Session session = hibernateFactory.getSessionFactory().openSession();
+        session.beginTransaction();
+        try {
+            Query query = session.createSQLQuery("SELECT *from users;");
+            ((NativeQuery) query).addEntity(Users.class);
+            usersList =query.list();
+        } catch (Exception e) {
+            System.out.println("readAllUsers Error!");
+            session.getTransaction().rollback();
+        } finally {
+            session.close();
+        }
+        return usersList;
     }
     public Users readUser(Long id) {
         Session session = hibernateFactory.getSessionFactory().openSession();

@@ -1,9 +1,14 @@
 package Daos;
 
+import Entity.Books;
 import Entity.Lending;
 import HibernateConn.HibernateFactory;
 import org.hibernate.Session;
+import org.hibernate.query.NativeQuery;
+import org.hibernate.query.Query;
 
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class LendingsDao<T> {
@@ -38,6 +43,23 @@ public class LendingsDao<T> {
             session.close();
         }
         return lending;
+    }
+    public List<Lending> readAllLendings()
+    {
+        List<Lending> lendingsList = new ArrayList<>();
+        Session session = hibernateFactory.getSessionFactory().openSession();
+        session.beginTransaction();
+        try {
+            Query query = session.createSQLQuery("SELECT *from lendings;");
+            ((NativeQuery) query).addEntity(Lending.class);
+            lendingsList =query.list();
+        } catch (Exception e) {
+            System.out.println("readAllLendings Error!");
+            session.getTransaction().rollback();
+        } finally {
+            session.close();
+        }
+        return lendingsList;
     }
     public void deleteLending(Long id)
     {

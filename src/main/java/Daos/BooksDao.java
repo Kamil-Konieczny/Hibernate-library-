@@ -3,7 +3,12 @@ package Daos;
 import Entity.Books;
 import HibernateConn.HibernateFactory;
 import org.hibernate.Session;
+import org.hibernate.query.NativeQuery;
+import org.hibernate.query.Query;
 
+import java.math.BigInteger;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class BooksDao<T> {
@@ -39,6 +44,24 @@ public class BooksDao<T> {
         }
         return book;
     }
+    public List<Books> readAllBooks()
+    {
+        List<Books> booksList = new ArrayList<>();
+        Session session = hibernateFactory.getSessionFactory().openSession();
+        session.beginTransaction();
+        try {
+            Query query = session.createSQLQuery("SELECT *from books;");
+            ((NativeQuery) query).addEntity(Books.class);
+            booksList =query.list();
+    } catch (Exception e) {
+        System.out.println("readAllBooks Error!");
+        session.getTransaction().rollback();
+    } finally {
+        session.close();
+    }
+        return booksList;
+    }
+
     public void deleteBook(Long id)
     {
         Session session = hibernateFactory.getSessionFactory().openSession();

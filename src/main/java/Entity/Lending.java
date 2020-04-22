@@ -2,6 +2,7 @@ package Entity;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 @Table(name = "Lendings")
@@ -12,8 +13,8 @@ public class Lending {
     private Long id;
     private Long user_id;
     private Long book_id;
-    private LocalDate date_of_lending;
-    private Boolean status;
+    private LocalDateTime date_of_lending;
+    private Boolean status=false;
 
     public Long getId() {
         return id;
@@ -39,11 +40,11 @@ public class Lending {
         this.book_id = book_id;
     }
 
-    public LocalDate getDate_of_lending() {
+    public LocalDateTime getDate_of_lending() {
         return date_of_lending;
     }
 
-    public void setDate_of_lending(LocalDate date_of_lending) {
+    public void setDate_of_lending(LocalDateTime date_of_lending) {
         this.date_of_lending = date_of_lending;
     }
 
