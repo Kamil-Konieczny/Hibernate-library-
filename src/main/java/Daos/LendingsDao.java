@@ -1,6 +1,5 @@
 package Daos;
 
-import Entity.Books;
 import Entity.Lending;
 import HibernateConn.HibernateFactory;
 import org.hibernate.Session;
@@ -61,20 +60,22 @@ public class LendingsDao<T> {
         }
         return lendingsList;
     }
-    public void deleteLending(Long id)
-    {
-        Session session = hibernateFactory.getSessionFactory().openSession();
-        session.beginTransaction();
-        try
-        {
-            Lending lending = session.find(Lending.class, id);
-            session.delete(lending);
-            session.getTransaction().commit();
-        } catch (Exception e) {
-            System.out.println("deleteLending Error");
-            session.getTransaction().rollback();
-        } finally {
-            session.close();
-        }
+
+public void updateLendingsByBookId ( long book_i) {
+    List<Lending> lendingList ;
+    Session session = hibernateFactory.getSessionFactory().openSession();
+    session.beginTransaction();
+    try {
+    Lending lending = session.find(Lending.class, book_i);
+    lending.setStatus(true);
+
+        session.getTransaction().commit();
+
+    } catch (Exception e) {
+        System.out.println("updateLendingsByBookID Error!");
+        session.getTransaction().rollback();
+    } finally {
+        session.close();
     }
+}
 }

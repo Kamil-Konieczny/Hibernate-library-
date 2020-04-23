@@ -8,13 +8,13 @@ import java.util.Date;
 @Table(name = "Lendings")
 @Entity
 public class Lending {
-    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private Long user_id;
+    @Id
     private Long book_id;
     private LocalDateTime date_of_lending;
-    private Boolean status=false;
+    private boolean status=false;
 
     public Long getId() {
         return id;
@@ -48,11 +48,31 @@ public class Lending {
         this.date_of_lending = date_of_lending;
     }
 
-    public Boolean getStatus() {
-        return status;
+    public String  getStatus() {
+        String ret = null;
+        if(status == false)
+        {
+            ret =  "in_progress";
+        }
+        else if(status == true)
+        {
+            ret = "returned";
+        }
+        return ret;
     }
 
-    public void setStatus(Boolean status) {
+    public void setStatus(boolean status) {
         this.status = status;
+    }
+
+    @Override
+    public String toString() {
+        return "Lending{" +
+                "id=" + id +
+                ", user_id=" + user_id +
+                ", book_id=" + book_id +
+                ", date_of_lending=" + date_of_lending +
+                ", status=" + status +
+                '}';
     }
 }

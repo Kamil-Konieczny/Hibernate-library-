@@ -78,4 +78,31 @@ public class BooksDao<T> {
             session.close();
         }
     }
+    public void updateBook(Books bookk) {
+        Session session = hibernateFactory.getSessionFactory().openSession();
+        session.beginTransaction();
+        try {
+            Books book = session.find(Books.class, bookk.getId());
+            String status= bookk.getStatus();
+            boolean statuss;
+            if(status=="free")
+            {
+                statuss = false;
+            }
+            else
+            {
+                statuss = true;
+            }
+            book.setStatus(statuss);
+            book.setAuthor_name(bookk.getAuthor_name());
+            book.setAuthor_surname(bookk.getAuthor_surname());
+            book.setTitle(bookk.getTitle());
+            session.getTransaction().commit();
+        } catch (Exception e) {
+            System.out.println("updateBook Error!");
+            session.getTransaction().rollback();
+        } finally {
+            session.close();
+        }
+    }
     }

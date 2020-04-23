@@ -5,18 +5,19 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Daos/BooksDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Daos/BooksDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Daos/LendingsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Daos/LendingsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Daos/UsersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Daos/UsersDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Entity/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entity/Books.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Entity/Lending.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entity/Lending.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entity/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entity/Users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HibernateConn/Library_DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HibernateConn/Library_DB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Swing/MainFrame.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Swing/MainFrame.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Swing/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Swing/MainFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Daos/BooksDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Daos/BooksDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Daos/LendingsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Daos/LendingsDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Daos/UsersDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Daos/UsersDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Entity/Books.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entity/Books.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Entity/Lending.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entity/Lending.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entity/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entity/Users.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/HibernateConn/Library_DB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HibernateConn/Library_DB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Swing/MainFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Swing/MainFrame$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Swing/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Swing/MainFrame.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +44,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="488" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/hibernate-without-xml-master" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -96,14 +98,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="713" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587322978290" />
-    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1587514290848">
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1587598085145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587514290848" />
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587598085145" />
     <state x="689" y="305" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587407173431">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="305" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587407173431" />
+    <state x="779" y="212" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1587569600879">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="779" y="212" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587569600879" />
     <state x="756" y="380" width="407" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587399651999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -120,22 +126,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587385570304" />
-    <state width="1876" height="111" key="GridCell.Tab.0.bottom" timestamp="1587517165039">
+    <state width="1468" height="217" key="GridCell.Tab.0.bottom" timestamp="1587604224308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="111" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587517165039" />
-    <state width="1876" height="111" key="GridCell.Tab.0.center" timestamp="1587517165039">
+    <state width="1468" height="217" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587604224308" />
+    <state width="1468" height="217" key="GridCell.Tab.0.center" timestamp="1587604224308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="111" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587517165039" />
-    <state width="1876" height="111" key="GridCell.Tab.0.left" timestamp="1587517165039">
+    <state width="1468" height="217" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587604224308" />
+    <state width="1468" height="217" key="GridCell.Tab.0.left" timestamp="1587604224307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="111" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587517165039" />
-    <state width="1876" height="111" key="GridCell.Tab.0.right" timestamp="1587517165039">
+    <state width="1468" height="217" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587604224307" />
+    <state width="1468" height="217" key="GridCell.Tab.0.right" timestamp="1587604224308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="111" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587517165039" />
+    <state width="1468" height="217" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587604224308" />
     <state width="1876" height="348" key="GridCell.Tab.1.bottom" timestamp="1587343047451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -156,10 +162,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="102" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587320897641" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1587551470126">
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1587552280725">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587551470126" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587552280725" />
     <state x="607" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587499345768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

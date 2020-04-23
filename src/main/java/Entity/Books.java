@@ -49,8 +49,17 @@ public class Books {
 
     private boolean status = false;
 
-    public boolean isStatus() {
-        return status;
+    public String  getStatus() {
+        String ret = null;
+        if(status == false)
+        {
+            ret = "free";
+        }
+        else if(status==true)
+        {
+            ret = "loaned";
+        }
+        return ret;
     }
 
     public void setStatus(boolean status) {
@@ -60,9 +69,6 @@ public class Books {
     @Override
     public String toString() {
         return "Books{" +
-                "id=" + id +
-                ", author_name='" + author_name + '\'' +
-                ", author_surrname='" + author_surname + '\'' +
                 ", title='" + title + '\'' +
                 '}';
     }
